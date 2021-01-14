@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Star Wars</title>
+</head>
+
+<body>
+    <main id="wrapper" class="main">
+        <h2>STAR WARS!!!</h2>
+        <div class="landingPage">
+            <div class="container">
+            <section> 
+            <ul class="image-list">
+                <li>>
+                    <img id="imageObiWan" src="/assets/obi-wan.jpg" alt="obi-wan"><button id="buttonObiWan">Choose Me!</button>
+                </li>
+                <li>
+                    <img id="imageLuke" src="assets/lukesky.jpeg" alt="lukesky"><button id="buttonLuke">Choose Me!</button>
+                </li>
+                <li>
+                    <img id="imageC3PO" src="assets/c3p0.jpg" alt="c3p0"><button id="buttonC3PO">Choose Me!</button>
+                </li>
+                <li>
+                    <img id="imageR2D2" src="assets/r2d2.png" alt="r2d2"><button id="buttonR2D2">Choose Me!</button>
+                </li>
+                <li>
+                    <img id="imageDarthVader" src="assets/darthvader.jpeg" alt="darthvader"><button
+                        id="buttonDarthVader">Choose Me!</button>
+                </li>
+                <li>
+                    <img id="imageLeia" src="assets/plea.jpeg" alt="plea"><button id="buttonLeia">Choose Me!</button>
+                </li>
+            </ul>
+        </div>
+        
+            </section>
+        <!-- Susan's Modal -->
+        <div class="hidden" id="hiddenModal">
+            <div class="modal" id="modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalLabel">Character Information</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="attributes" id="attributes"></h5>
+                        <form id="attributes" action="#" method="GET"></form>
+                    </div> 
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+<script src=" js/get.js"></script>
+<script src="js/script.js"></script>
+
+</html>
