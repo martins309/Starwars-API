@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Star Wars</title>
 </head>
 
-<body>
+<body background="assets/space.jpg">
     <main id="wrapper" class="main">
         <h2>STAR WARS!!!</h2>
         <div class="landingPage">
             <div class="container">
             <section> 
             <ul class="image-list">
-                <li>>
-                    <img id="imageObiWan" src="/assets/obi-wan.jpg" alt="obi-wan"><button id="buttonObiWan">Choose Me!</button>
+                <li>
+                    <img id="imageObiWan" src="assets/obi-wan.jpg" alt="obi-wan"><button id="buttonObiWan">Choose Me!</button>
                 </li>
                 <li>
                     <img id="imageLuke" src="assets/lukesky.jpeg" alt="lukesky"><button id="buttonLuke">Choose Me!</button>
@@ -25,7 +26,7 @@
                     <img id="imageC3PO" src="assets/c3p0.jpg" alt="c3p0"><button id="buttonC3PO">Choose Me!</button>
                 </li>
                 <li>
-                    <img id="imageR2D2" src="assets/r2d2.png" alt="r2d2"><button id="buttonR2D2">Choose Me!</button>
+                    <img id="imageR2D2" src="assets/r22d2.jpg" alt="r22d2"><button id="buttonR22D2">Choose Me!</button>
                 </li>
                 <li>
                     <img id="imageDarthVader" src="assets/darthvader.jpeg" alt="darthvader"><button
@@ -55,6 +56,11 @@
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
+                    <div id="overlay" class="overlay"> 
+                        <div id="modal" class="modal">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -62,6 +68,7 @@
     </main>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src=" js/get.js"></script>
 <script src="js/script.js"></script>
 
